@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:salmon"
+            ],
+            "components": {
+              "minecraft:custom_data": "{fish:salmon}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "fishing2:item/salmon"
+  }
+}

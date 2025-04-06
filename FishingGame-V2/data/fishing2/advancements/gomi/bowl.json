@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bowl"
+              ],
+              "components": {
+                "minecraft:custom_data": "{jank:gomidesuww}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "fishing2:item/gomi"
+    }
+  }

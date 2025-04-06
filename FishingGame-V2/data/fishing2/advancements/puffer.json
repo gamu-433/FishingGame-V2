@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pufferfish"
+            ],
+            "components": {
+              "minecraft:custom_data": "{fish:puffer}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "fishing2:item/puffer"
+  }
+}

@@ -1,0 +1,1 @@
+execute as @s at @s if entity @s[tag=fishing5] run function fishing:salmon5_5

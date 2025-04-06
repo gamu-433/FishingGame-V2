@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tropical_fish"
+            ],
+            "nbt": "{Tags:[\"salmon2\"]}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "fishing:salmon5"
+  }
+}
