@@ -1,6 +1,6 @@
 execute as @a[tag=1_1] at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 1
-title @a[tag=1_1] actionbar [{"text":"Fishing","color":"red","bold":"true"},{"text":"チャレンジ","color":"aqua","bold":"true"},{"text":" ～スタート～","color":"light_purple"}]
-tellraw @a[tag=1_1] [{"text":"Fishing","color":"red","bold":"true"},{"text":"チャレンジ","color":"aqua","bold":"true"},{"text":" ～スタート～","color":"light_purple"}]
+title @a[tag=1_1] actionbar [{"text":"Fishing","color":"red","bold":true},{"text":"チャレンジ","color":"aqua","bold":true},{"text":" ～スタート～","color":"light_purple"}]
+tellraw @a[tag=1_1] [{"text":"Fishing","color":"red","bold":true},{"text":"チャレンジ","color":"aqua","bold":true},{"text":" ～スタート～","color":"light_purple"}]
 
 scoreboard players set @a[tag=1_1] fishingtime_1 300
 execute as @a[tag=1_1] at @s unless entity @s[tag=fish_082] run give @s fishing_rod 1

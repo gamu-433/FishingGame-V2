@@ -6,10 +6,10 @@
         "items": [
           {
             "items": [
-              "minecraft:pufferfish"
+              "minecraft:cod"
             ],
             "components": {
-              "minecraft:custom_data": "{fish:puffer}"
+              "minecraft:custom_data": "{fish:cod}"
             }
           }
         ]
@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "fishing2:item/puffer"
+    "function": "fishing2:item/cod"
   }
 }

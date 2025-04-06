@@ -1,8 +1,3 @@
-advancement revoke @a only fishing:salmon3
-advancement revoke @a only fishing:salmon4
-advancement revoke @a only fishing:salmon1
-advancement revoke @a only fishing:salmon2
-advancement revoke @a only fishing:cod
 execute as @a[tag=fishing5] unless entity @s[tag=fishi2] run title @s actionbar [{"text":"残り時間はあと"},{"score":{"name":"@s[tag=fishing5]","objective":"fishingtime_1"},"color":"white"},{"text":"秒です"}]
 execute as @a[tag=fishi15] if entity @s[scores={fishingtime_1=..0}] run function fishing:fishi15
 execute as @a[tag=fishi13] if entity @s[scores={fishingtime_1=..2}] run function fishing:fishi13
