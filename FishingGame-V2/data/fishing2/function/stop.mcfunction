@@ -1,1 +1,1 @@
-execute as @s at @s if entity @s[tag=fishing5] run execute as @s run function fishing:fishi20
+execute as @s at @s if entity @s[tag=fishing5] run execute as @s run function fishing2:fishi20
