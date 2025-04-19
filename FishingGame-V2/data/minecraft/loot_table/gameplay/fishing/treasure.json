@@ -5,87 +5,84 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:profile": {
-                  "name": "gamutyan"
-                },
-                "minecraft:custom_data": "{fish:head1}"
-              },
-              "conditions": []
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/head",
+          "weight": 80,
+          "quality": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:player_head",
+          "name": "minecraft:paper",
           "weight": 20,
+          "quality": -2,
           "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "福引券",
+                "type": "text",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "-----------------------",
+                  "type": "text",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "5枚集めるとポイント福引ができるぞ！",
+                  "type": "text",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "  ",
+                  "type": "text"
+                },
+                {
+                  "text": "【使用方法】",
+                  "type": "text",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "・福引担当の村人を右クリック",
+                  "type": "text",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "-----------------------",
+                  "type": "text",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tike:1}"
+            },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:profile": {
-                  "name": "TAKE_TEKE"
-                },
-                "minecraft:custom_data": "{fish:head1}"
-              },
-              "conditions": []
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:profile": {
-                  "name": "Crysta1221"
-                },
-                "minecraft:custom_data": "{fish:head1}"
-              },
-              "conditions": []
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:profile": {
-                  "name": "_yamipi"
-                },
-                "minecraft:custom_data": "{fish:head1}"
-              },
-              "conditions": []
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:profile": {
-                  "name": "Ototaki0622"
-                },
-                "minecraft:custom_data": "{fish:head1}"
-              },
-              "conditions": []
+                "minecraft:enchantment_glint_override": true
+              }
             }
           ]
         }

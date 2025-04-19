@@ -12,3 +12,7 @@ advancement revoke @s only fishing2:gomi/ink_sac
 advancement revoke @s only fishing2:gomi/leather
 advancement revoke @s only fishing2:gomi/pad
 advancement revoke @s only fishing2:gomi/stick
+tellraw @s [{"bold":false,"color":"gray","text":"["},{"bold":false,"color":"yellow","text":"!"},{"bold":false,"color":"gray","text":"] "},{"bold":false,"color":"aqua","text":"ゴミを釣り上げてしまった..!"},{"bold":false,"color":"red","text":" (-1)"}]
+scoreboard players remove @s fishpoint2 1
+scoreboard players remove @s fish_points 1
+execute if entity @s[tag=fishing5] run scoreboard players remove @s fish_timeattack 1

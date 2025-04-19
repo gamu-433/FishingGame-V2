@@ -1,0 +1,97 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:profile": {
+                    "name": "gamutyan"
+                  },
+                  "minecraft:custom_data": "{fish:head1}"
+                },
+                "conditions": []
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:profile": {
+                    "name": "TAKE_TEKE"
+                  },
+                  "minecraft:custom_data": "{fish:head1}"
+                },
+                "conditions": []
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:profile": {
+                    "name": "Crysta1221"
+                  },
+                  "minecraft:custom_data": "{fish:head1}"
+                },
+                "conditions": []
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:profile": {
+                    "name": "_yamipi"
+                  },
+                  "minecraft:custom_data": "{fish:head1}"
+                },
+                "conditions": []
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:profile": {
+                    "name": "Ototaki0622"
+                  },
+                  "minecraft:custom_data": "{fish:head1}"
+                },
+                "conditions": []
+              }
+            ]
+          }
+        ],
+        "rolls": 1
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/treasure"
+  }

@@ -1,0 +1,1 @@
+execute as @a[gamemode= creative] run tellraw @s {"text":"再読み込みが完了しました！","color":"green"}

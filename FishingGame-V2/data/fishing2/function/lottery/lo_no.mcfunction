@@ -1,0 +1,2 @@
+playsound minecraft:block.note_block.bass master @s ~ ~ ~ 1 1
+tellraw @s [{"bold":false,"color":"gray","text":"["},{"bold":false,"color":"red","text":"!"},{"bold":false,"color":"gray","text":"] "},{"bold":false,"color":"red","text":"福引券が足りません!"}]
