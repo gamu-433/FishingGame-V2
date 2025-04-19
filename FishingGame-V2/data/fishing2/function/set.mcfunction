@@ -7,6 +7,7 @@ scoreboard objectives add fish_ticket dummy
 team add fish
 scoreboard objectives add fish_points dummy
 scoreboard objectives add fishingtime_1 dummy
+scoreboard objectives add fish_count dummy
 team modify fish color dark_aqua
 scoreboard objectives setdisplay sidebar.team.dark_aqua fish_timeattack2
 scoreboard objectives add fish_timeattack2 dummy

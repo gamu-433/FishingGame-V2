@@ -1,0 +1,33 @@
+{
+    "criteria": {
+      "fishing": {
+        "trigger": "minecraft:fishing_rod_hooked"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "魚釣りを始めよう!",
+        "type": "text",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/moss_block.png",
+      "frame": "task",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:fishing_rod"
+      },
+      "title": {
+        "text": "魚釣り",
+        "type": "text",
+        "color": "white",
+        "bold": false,
+        "italic": false
+      },
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "sends_telemetry_event": true
+  }

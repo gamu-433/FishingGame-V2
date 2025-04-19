@@ -1,5 +1,4 @@
-# ピグリンの頭
-scoreboard objectives add points_pig dummy
+# 参加時に実行
+advancement grant @s only fishing2:point/root
 
-#ototakiの頭
-scoreboard objectives add points_ototaki dummy
+#tag確認して持ってなければreset処理
