@@ -1,97 +1,238 @@
 {
-    "type": "minecraft:fishing",
-    "pools": [
-      {
-        "bonus_rolls": 0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:player_head",
-            "weight": 20,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:profile": {
-                    "name": "gamutyan"
-                  },
-                  "minecraft:custom_data": "{fish:head1}"
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "gamutyan"
                 },
-                "conditions": []
+                "minecraft:custom_data": "{fish:head1}"
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:player_head",
-            "weight": 20,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:profile": {
-                    "name": "TAKE_TEKE"
-                  },
-                  "minecraft:custom_data": "{fish:head1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "TAKE_TEKE"
                 },
-                "conditions": []
+                "minecraft:custom_data": "{fish:head2}"
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:player_head",
-            "weight": 20,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:profile": {
-                    "name": "Crysta1221"
-                  },
-                  "minecraft:custom_data": "{fish:head1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "Crysta1221"
                 },
-                "conditions": []
+                "minecraft:custom_data": "{fish:head3}"
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:player_head",
-            "weight": 20,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:profile": {
-                    "name": "_yamipi"
-                  },
-                  "minecraft:custom_data": "{fish:head1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "_yamipi"
                 },
-                "conditions": []
+                "minecraft:custom_data": "{fish:head4}"
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:player_head",
-            "weight": 20,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:profile": {
-                    "name": "Ototaki0622"
-                  },
-                  "minecraft:custom_data": "{fish:head1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "Ototaki0622"
                 },
-                "conditions": []
+                "minecraft:custom_data": "{fish:head5}"
               }
-            ]
-          }
-        ],
-        "rolls": 1
-      }
-    ],
-    "random_sequence": "minecraft:gameplay/fishing/treasure"
-  }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "iru1"
+                },
+                "minecraft:custom_data": "{fish:head6}"
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "Otohalu"
+                },
+                "minecraft:custom_data": "{fish:head7}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "kyo_piano"
+                },
+                "minecraft:custom_data": "{fish:head8}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "rusian"
+                },
+                "minecraft:custom_data": "{fish:head9}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "Blue_icecat"
+                },
+                "minecraft:custom_data": "{fish:head10}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "DRK1115"
+                },
+                "minecraft:custom_data": "{fish:head11}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "Meni0027_"
+                },
+                "minecraft:custom_data": "{fish:head12}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "ClankyMI"
+                },
+                "minecraft:custom_data": "{fish:head13}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "mentaiko_1"
+                },
+                "minecraft:custom_data": "{fish:head14}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "kaya1222"
+                },
+                "minecraft:custom_data": "{fish:head15}"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:player_head"
+              ],
+              "components": {
+                "minecraft:custom_data": "{fish:head7}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "fishing2:item/head/otohalu"
+    }
+  }
