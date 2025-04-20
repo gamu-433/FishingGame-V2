@@ -1,0 +1,11 @@
+execute unless entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod"}}] run scoreboard players set @s fish_rodnow -1
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod"}}] run scoreboard players set @s fish_rodnow 0
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod",components:{"minecraft:custom_data":{rod:1}}}}] run scoreboard players set @s fish_rodnow 1
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod",components:{"minecraft:custom_data":{rod:2}}}}] run scoreboard players set @s fish_rodnow 2
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod",components:{"minecraft:custom_data":{rod:3}}}}] run scoreboard players set @s fish_rodnow 3
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod"}}] run scoreboard players set @s fish_rodc 0
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod",components:{"minecraft:custom_model_data":11}}}] run scoreboard players set @s fish_rodc 1
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod",components:{"minecraft:custom_model_data":12}}}] run scoreboard players set @s fish_rodc 2
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod",components:{"minecraft:custom_model_data":13}}}] run scoreboard players set @s fish_rodc 3
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod",components:{"minecraft:custom_model_data":14}}}] run scoreboard players set @s fish_rodc 4
+execute as @p if entity @s[nbt={SelectedItem:{id:"minecraft:fishing_rod",components:{"minecraft:custom_model_data":15}}}] run scoreboard players set @s fish_rodc 5

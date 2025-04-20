@@ -1,0 +1,13 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:luck_of_the_sea": 1,
+          "minecraft:lure": 1,
+          "minecraft:unbreaking": 1
+        }
+      },
+      "minecraft:custom_data": "{rod:1}"
+    }
+  }

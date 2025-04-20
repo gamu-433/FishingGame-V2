@@ -22,7 +22,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "fishing2:point/root",
+    "parent": "fishing2:point/1000p",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:fishing_rod_hooked",
