@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:enchantments": {
+      "levels": {
+        "minecraft:unbreaking": 2
+      },
+      "show_in_tooltip": true
+    }
+  }
+}

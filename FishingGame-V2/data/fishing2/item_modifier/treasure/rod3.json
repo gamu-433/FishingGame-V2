@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:enchantments": {
+      "levels": {
+        "minecraft:luck_of_the_sea": 3
+      },
+      "show_in_tooltip": true
+    }
+  }
+}

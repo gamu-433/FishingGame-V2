@@ -10,6 +10,8 @@ scoreboard objectives add fishingtime_1 dummy
 scoreboard objectives add fish_count dummy
 scoreboard objectives add fish_rodc dummy
 scoreboard objectives add fish_rodnow dummy
+scoreboard objectives add fish_rodnow2 dummy
+scoreboard objectives add fish_rodnow3 dummy
 scoreboard objectives add fish_xp level
 team modify fish color dark_aqua
 scoreboard objectives setdisplay sidebar.team.dark_aqua fish_timeattack2

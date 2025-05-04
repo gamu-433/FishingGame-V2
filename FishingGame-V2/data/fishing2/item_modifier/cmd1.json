@@ -1,6 +1,6 @@
 {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 11
-    }
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_data": "{rod:11}"
   }
+}

@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:enchantments": {
+      "levels": {
+        "minecraft:lure": 3
+      },
+      "show_in_tooltip": true
+    }
+  }
+}
