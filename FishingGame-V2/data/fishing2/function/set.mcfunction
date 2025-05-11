@@ -4,6 +4,8 @@ scoreboard objectives add fishingtime_1 dummy
 scoreboard objectives add fishingtime_2 dummy
 scoreboard objectives add fish_timeattack dummy
 scoreboard objectives add fish_ticket dummy
+scoreboard objectives add fish_rank dummy
+scoreboard objectives add fish_rank2 dummy
 team add fish
 scoreboard objectives add fish_points dummy
 scoreboard objectives add fishingtime_1 dummy
